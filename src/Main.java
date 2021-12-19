@@ -1,3 +1,4 @@
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +14,12 @@ public class Main {
         b) zaimplementować metody abstrakcyjne odpowiednimi wzorami,
         c) stworzyć objekty tych klas i wyświetlić przykładowe wyliczenia
         */
-
+        System.out.print("\n\n");
+        Kwadrat kwadrat = new Kwadrat(5);
+        System.out.print("Kwadrat z A równym " +kwadrat.getA() +", Pole " + kwadrat.pole() + ", Obwód " + kwadrat.obwod());
+        System.out.print("\n\n");
+        Prostokat prostokat = new Prostokat(6,5);
+        System.out.print("Prostokat z A równym " +prostokat.getA() +", B równym "+prostokat.getB() + ", Pole " + prostokat.pole() + ", Obwód " + prostokat.obwod());
+        System.out.print("\n\n");
     }
 }
