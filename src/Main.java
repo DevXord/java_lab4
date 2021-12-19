@@ -1,3 +1,6 @@
+
+
+
 public class Main {
     public static void main(String[] args) {
 
@@ -27,5 +30,23 @@ public class Main {
         b) wykorzystać wszystkie metody do implementacji pól
         c) wyświetlić w konsoli metodę toString (na obu objektach) opisującą zachowanie klasy Dom
         */
+        System.out.println(" ");
+        Dom dom = new Dom();
+        dom.setOkna(2);
+        dom.setAdres("Ćwiartki 3 przez 4");
+        dom.setKolor(KolorEnum.Czarny);
+        dom.setMieszkancy(5);
+        dom.setPowierzchcnia(45.20);
+        System.out.print(dom +"\n\n");
+
+        Budynek dom2 = new Dom();
+        dom2.liczbaOkien(3);
+        dom2.adresBudynku("Ul. Adamieczyw 2");
+        dom2.kolorDomu(KolorEnum.Czerwony);
+        dom2.liczbaMieszkancow(1);
+        dom2.powierzchnia(15.20);
+        System.out.print(dom2 +"\n\n");
+
+
     }
 }
