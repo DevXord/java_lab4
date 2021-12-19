@@ -55,27 +55,27 @@ class Kierownik implements PracownikI{
 
     @Override
     public void pomachaj() {
-
+        System.out.print("Macha");
     }
 
     @Override
     public void zagadaj() {
-
+        System.out.print("Zagaduje");
     }
 
     @Override
     public void wstanDoPracy() {
-
+        System.out.print("Wstaje do pracy");
     }
 
     @Override
     public void zaspijDoPracy() {
-
+        System.out.print("Zaspał do pracy");
     }
 
     @Override
     public void pracuj() {
-
+        System.out.print("Pracuje....");
     }
 
 
