@@ -61,27 +61,27 @@ class Student implements StudentI{
 
     @Override
     public void pomachaj() {
-
+            System.out.print("Macha");
     }
 
     @Override
     public void zagadaj() {
-
+            System.out.print("Zagaduje");
     }
 
     @Override
     public void podajNumerAlbumu() {
-
+       System.out.print("To moj numer albumu " + numerAlbumu);
     }
 
     @Override
     public void podajKierunekStudiow() {
-
+            System.out.print("Mój kierunek to Filozofia");
     }
 
     @Override
     public void zaplacZaStudia() {
-
+             System.out.print("Płace za studia....");
     }
 
     @Override
